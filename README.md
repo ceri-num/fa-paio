@@ -1,5 +1,7 @@
 # PAIO - Project on Artificial Intelligence and Optimization
 
+## PAIO - Project on Artificial Intelligence and Optimization
+
 Module de Projet informatique autour de l'intelligence artificielle et de l'optimisation.
 
 **Publique**: Informaticien en formation par apprentissage, dans l'optique de compléter leur formation de notions en IA et Optimisation.
