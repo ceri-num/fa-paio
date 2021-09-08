@@ -1,16 +1,12 @@
-# PAIO - Project on Artificail Intelligence and Optimisation
+# PAIO - Project on Artificial Intelligence and Optimization
 
-Module de Projet Informatique autour de l'inteligence artificiel et de l'optimisation.
+Module de Projet informatique autour de l'intelligence artificielle et de l'optimisation.
 
 **Publique**: Informaticien en formation par apprentissage, dans l'optique de compléter leur formation de notions en IA et Optimisation.
 
-**Volume horaire**: *12* &times; *1h30* soit *18h* - octobre/novembre.
+<!-- **Volume horaire**: *12* &times; *1h30* soit *18h* - octobre/novembre. -->
 
-**Objectif**: prendre en main un projet d'informatique pour:
-
-- Réviser le langage C.
-- S'exercer à travailler en groupe.
-- Toucher du doit la conduite de projet.
+**Objectif**: prendre en main, à travers un projet, des algorithmes de planification et d'optimisations.
 
 ---
 
@@ -25,9 +21,16 @@ Support publié sur gitbook via github.
 
 ## Outil de travail
 
-Communication
+**Communication**
 
-Environnement de developpement
+- Amphi virtuel via BigBlueButton (un navigateur type firefox suffi): https://bbb2.imt-nord-europe.fr/b/gui-fnl-wd7-il7 
+- Serveur d'échange perein (idéalement vous utilisez le client lourd Discord): https://discord.gg/Fe6YRZe
+- Présentiel (site de villeneuve D'ask)
+
+**Environnement de développement**
+
+- Un éditeur multi-language - VisualStudioCode (version [microsft](https://code.visualstudio.com/) ou [ouvert](https://vscodium.com/)), Atom ...
+- Un environnement virtualisé [replit.com](https://replit.com) par exemple.
 
 ---
 

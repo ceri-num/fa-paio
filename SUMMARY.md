@@ -1,24 +1,24 @@
 # Outline
 
-Lets talk about this modul.
+Let’s talk about this module.
 
 * [Introduction](README.md)                                  <!--Guillaume-->
 * [Plan du module](SUMMARY.md)
 
-## AAA, Agir et apprendre à agir                             <!--Guillaume-->
+## Agir et apprendre à agir                             <!--Guillaume-->
 
-Appréhender un systémes complexe et modélisé l'action. Mettre en pratique dans un cadre simple avec des algorythme d'apprentissage par renforcement.
+Appréhender un système complexe et modéliser l'action. Mettre en pratique dans un cadre simple avec des algorithmes d'apprentissage par renforcement.
 
 * [Introduction](aaa/bonbenyapuka.md)
 
 ## Théorie des jeux
 
-Choisir ses actions dans un cadre définie et concurentiel (jeux à N joueur). étude  de l'algorythm de Monte-Carlo
+Choisir ses actions dans un cadre défini et concurrentiel (jeux à *N* joueurs). étude  de l'algorithme de Monte-Carlo
 
-## Optimisation Combinatoire
+## Optimisation combinatoire
 
 Et oui, l'optimalité n'est que rarement atteignable.
 
 ## Conduite de projet IA.
 
-Valider les modéles et amméliorer les performence d'algorythm met en exerge les besoin de bonne pratique de conduite de projet.
+Valider les modèles et améliorer les performances d'algorithme met en exergue les besoins de bonnes pratiques de conduite de projet.
