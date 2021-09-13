@@ -1,5 +1,7 @@
 # Apprentissage par renforcement
 
+L'apprentissage automatique consiste à rendre un logiciel capable d'apprendre par lui même. Dans le cadre qui nous intérese, le logiciel doit apprendre un comportement dynamique à adopter et sur la base de sa propre expérience. 
+
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/reinforcement.pdf)
 
 ### Mise en pratique:
