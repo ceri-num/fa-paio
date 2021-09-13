@@ -7,7 +7,7 @@
 
 * [Introduction](aaa/1-intro-CPIA.md)
 * [Apprendre le 421](aaa/2-apr-au-421.md)
-* [Q-learning en Python](aaa/q-learning.md)
+* [(Q-learning en Python)](aaa/q-learning.md)
 
 ## Théorie des jeux
 

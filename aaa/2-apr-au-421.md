@@ -1,6 +1,6 @@
 # Apprentissage par renforcement
 
-L'apprentissage automatique consiste à rendre un logiciel capable d'apprendre par lui même. Dans le cadre qui nous intérese, le logiciel doit apprendre un comportement dynamique à adopter et sur la base de sa propre expérience. 
+L'apprentissage automatique consiste à rendre un logiciel capable d'apprendre par lui-même. Dans le cadre qui nous intéresse, le logiciel doit apprendre un comportement dynamique à adopter et en renforçant ces connaissances avec sa propre expérience. 
 
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/reinforcement.pdf)
 
@@ -13,7 +13,7 @@ Implémenter un "Q-Learning" sur le jeu 421.
 - Décider sur une modalité `epsilon greedy`
 - Identifier dans votre cadre professionnel une problématique de prise de décision séquentielle.
 
-Plus de détail sur la page de [q-learning](./game421/q-learning.md).
+Plus de détail sur la page de [Q-learning en python](./q-learning.md) proposant une aide pour une implémentation simple.
 
 <!--
 ## Appréhender un système plus complexe
