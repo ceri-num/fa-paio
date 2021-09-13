@@ -13,6 +13,7 @@ Implémenter un "Q-Learning" sur le jeu 421.
 
 Plus de détail sur la page de [q-learning](./game421/q-learning.md).
 
+<!--
 ## Appréhender un système plus complexe
 
 La difficulté ensuite consiste à d'appréhender des systèmes plus complexes.
@@ -22,3 +23,4 @@ Le jeu Zombie Dice par exemple est un autre jeu de dés de type "stop" and "go" 
 * entrer dans [jeu-ZombieDice](https://replit.com/repls/@ChefProjetIA21/jeu-ZombieDice)
 * Faire un **Fork** du projet **ready-ZombieDice**
 * Tenter d'appliquer du qlearning sur **ZombieDice**
+-->
