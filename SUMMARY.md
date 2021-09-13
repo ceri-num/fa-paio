@@ -1,6 +1,6 @@
 # Outline
 
-* [Project on Artificial Intelligence and Optimization](README.md)                             <!--Guillaume-->
+* [Project on AI & Opti.](README.md)                             <!--Guillaume-->
 * [Plan du module](outline.md)
 
 ## Agir et apprendre à agir                             <!--Guillaume-->
