@@ -1,11 +1,11 @@
 # Notion d'action en IA
 
-Appréhender le modéle agent et les problématiques de prise de décision sous incertitude.
+Appréhender le modèle agent et les problématiques de prise de décision sous incertitude.
 
 ## Introduction à la prise de décision sous incertitude
 
 L'intelligence artificielle cherche par des modèles et des algorithmes à reproduire des comportements d'intelligence naturels.
-Le champ de recherche en IA est extrêmement large (neuroscience, langage, sociologie, apprentissage, optimisation,...), ici in s'intéresse à l'individu et aux processus rationnels lui permettant de prendre les bonnes décisions.
+Le champ de recherche en IA est extrêmement large (neuroscience, langage, sociologie, apprentissage, optimisation...), ici in s'intéresse à l'individu et aux processus rationnels lui permettant de prendre les bonnes décisions.
 
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/fa-paio/master/notions/intro.pdf)
 
@@ -20,12 +20,14 @@ Une version python du jeu est disponible [ici](https://raw.githubusercontent.com
 
 **Outils**
 
-- Wep application: [replit.com](https://replit.com/teams/join/pwhevmtommdkmcicakakdxtqprvuncig-ChefProjetIA21) (il faudra créer un compte).
-  * Créer un compte.
-  * Se logger sur le groupe **ChefDeProjetIA** (automatique normalement)
-  * Visualiser les projets (repls) pour [jeu-421](https://replit.com/repls/@ChefProjetIA21/jeu-421)
-  * Faire un **Fork** du projet **ready-421**
 - Sur ça propre machine avec : spyder(Anaconda), VisualStudioCode, Atom ... 
+  * S'approprier une table dans la salle de TD virtuelle Discord.
+  * Y inviter son binôme.
+  * partager son écran (ou son espace de travail VisualStudioCode)
+- Via une interface web: [replit.com](https://replit.com)
+  * Créer un compte.
+  * Se logger, créer un groupe et y inviter son binôme.
+  * S'installer dans Discord et partager son écran.
 
 **Comprendre le code**
 
@@ -33,6 +35,7 @@ Ouvrir le fichier *game421.py* et identifier les deux classes principales
 La première **HumanAgent** implémente une interface pour un joueur humain..
 La seconde **System** implémente le jeu *421*.
 
+Idéalement, vous ne travaillez pas directement dans *game421.py*, mais dans un fichier à vous, à côté.
 Dans votre fichier de travail, il vous suffit d'importer `game421.py`, et de lancer une partie (`run`) avec une interphase `HumanAgent`:
 
 ```python
