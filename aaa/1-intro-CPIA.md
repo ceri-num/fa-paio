@@ -2,7 +2,10 @@
 
 Appréhender le modéle agent et les problématiques de prise de décision sous incertitude.
 
-## Introduction à la prise de décision sous incertitude.
+## Introduction à la prise de décision sous incertitude
+
+L'intelligence artificielle cherche par des modèles et des algorithmes à reproduire des comportements d'intelligence naturels.
+Le champ de recherche en IA est extrêmement large (neuroscience, langage, sociologie, apprentissage, optimisation,...), ici in s'intéresse à l'individu et aux processus rationnels lui permettant de prendre les bonnes décisions.
 
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/fa-paio/master/notions/intro.pdf)
 

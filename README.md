@@ -1,3 +1,7 @@
+---
+@author: Guillaume Lozenguez
+---
+
 # PAIO - Project on Artificial Intelligence and Optimization
 
 ## PAIO - Project on Artificial Intelligence and Optimization
