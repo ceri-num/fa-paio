@@ -11,8 +11,11 @@
 
 ## Théorie des jeux
 
+* [Introduction](tdj/1-intro.md)
+
 ## Optimisation combinatoire
 
+* [Introduction](opti/1-intro.md)
 
 ## Conduite de projet IA.
 
