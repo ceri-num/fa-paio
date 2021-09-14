@@ -2,15 +2,9 @@
 
 Let’s talk about this module.
 
-* [Introduction](README.md)                                  <!--Guillaume-->
-* [Plan du module](SUMMARY.md)
-
 ## Agir et apprendre à agir                             <!--Guillaume-->
 
 Appréhender un système complexe et modéliser l'action. Mettre en pratique dans un cadre simple avec des algorithmes d'apprentissage par renforcement.
-
-* [Introduction](aaa/1-intro-CPIA.md)
-* [Apprendre le 421](aaa/2-apr-au-421.md)
 
 ## Théorie des jeux
 
