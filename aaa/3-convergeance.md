@@ -28,9 +28,10 @@ plt.ylabel('plot label')
 plt.show()
 ```
 
+<!--
 ## Retour sur l'apprentissage au 421
 
 Analyse du Q-Learning sur cet exemple et présentation de l'apprentissage basé modèle.
 
 * [Q-Learning on 421](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/qlearning421.pdf)
-* [Model Based Learning](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/model-based-learning.pdf)
+-->
