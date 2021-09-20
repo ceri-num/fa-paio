@@ -1,8 +1,11 @@
 # Model-Based Learning
 
 On souhaite maintenant apprendre un modèle de l'évolution de notre système, de façon à pouvoir résonner dessus et planifier les actions à réaliser.
+
 <!--
+
 * [Q-Learning on 421](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/qlearning421.pdf)
+
 -->
 
 ## Apprendre le Modèle :
