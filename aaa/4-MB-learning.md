@@ -72,7 +72,7 @@ def valueIteration( transition, reward, gamma= 0.99, epsilon= 0.01):
                 maxDiffValue= abs( bestValue - values[s]  )
             values[s]= bestValue
         values= values
-    return pi. values
+    return pi, values
 ```
 
 Notez que vous pouvez stocker dans une fichier lisible votre politique implémenté comme un dictionnaire avec la librairie python 'json' :

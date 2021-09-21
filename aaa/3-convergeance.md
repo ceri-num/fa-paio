@@ -32,4 +32,5 @@ plt.show()
 
 Analyse du Q-Learning sur cet exemple et présentation de l'apprentissage basé modèle.
 
+* [Correction](https://raw.githubusercontent.com/ceri-num/module-DUU/master/codes/playerQ.py)
 * [Q-Learning on 421](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/qlearning421.pdf)
