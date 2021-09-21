@@ -7,7 +7,8 @@ Appréhender le modèle agent et les problématiques de prise de décision sous 
 L'intelligence artificielle cherche par des modèles et des algorithmes à reproduire des comportements d'intelligence naturels.
 Le champ de recherche en IA est extrêmement large (neuroscience, langage, sociologie, apprentissage, optimisation...), ici in s'intéresse à l'individu et aux processus rationnels lui permettant de prendre les bonnes décisions.
 
-- [Support (PDF)](https://raw.githubusercontent.com/ceri-num/fa-paio/master/notions/intro-paio.pdf)
+- [Support (PDF)](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/intro-paio.pdf)
+                 
 
 ### Mise en pratique:
 
@@ -32,7 +33,7 @@ Une version python du jeu est disponible [ici](https://raw.githubusercontent.com
 **Comprendre le code**
 
 Ouvrir le fichier *game421.py* et identifier les deux classes principales
-La première **HumanAgent** implémente une interface pour un joueur humain..
+La première **HumanAgent** implémente une interface pour un joueur humain...
 La seconde **System** implémente le jeu *421*.
 
 Idéalement, vous ne travaillez pas directement dans *game421.py*, mais dans un fichier à vous, à côté.

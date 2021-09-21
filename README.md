@@ -24,7 +24,7 @@ Support publié sur gitbook via github.
 **Communication**
 
 - Amphi virtuel via BigBlueButton (un navigateur type firefox suffi): <br />https://bbb2.imt-nord-europe.fr/b/gui-fnl-wd7-il7 
-- Serveur d'échange perein (idéalement vous utilisez le client lourd Discord): <br />https://discord.gg/Fe6YRZe
+- Serveur d'échange perein (idéalement vous utilisez le client lourd Discord): <br />https://discord.gg/CNZh6T62e8
 - Présentiel (site de Villeneuve d'Ask)
 
 **Environnement de développement**

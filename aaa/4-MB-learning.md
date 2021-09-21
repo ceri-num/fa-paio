@@ -2,11 +2,8 @@
 
 On souhaite maintenant apprendre un modèle de l'évolution de notre système, de façon à pouvoir résonner dessus et planifier les actions à réaliser.
 
-<!--
+* [Model-Based-Learning](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/mb-learning.pdf)
 
-* [Q-Learning on 421](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/qlearning421.pdf)
-
--->
 
 ## Apprendre le Modèle :
 
@@ -29,6 +26,55 @@ Sur la base de ce fichier:
 
 Le plus dur est fait. Il faut maintenant faire tourner un algo de résolution de MDP ('value iteration par exemple') pour calculer une politique et enfin l'exécuter dans des parties de 421.
 
+### Proposition d'implémentation:
+
+First: a bellman implémentation at horizon 1 (i.e. non recursive).
+
+```python
+def BelmanValueOf( transition, reward, s, a, defaultValues, gamma=0.99 ):
+    expectedGains= 0
+    for sp in transition[s][a] :
+        expectedGains+= transition[s][a][sp] * defaultValues[sp]
+    return reward[s][a] + gamma * expectedGains
+```
+
+In this implementation:
+
+- `transition` is a dictionary over states of dictionaries over action of dictionaries over states of values between 0 and 1.
+- `reward` is a dictionary over states of dictionary over action of values.
+- `s` a state, an entrance in `transition` and `reward`
+- `a` an action, an entrance in `transition[s]` and `reward[s]`
+- `defaultValues` a first estimation of Belleman value (a dictionary over state of values).
+
+Second: Value Iteration:
+
+```Python
+def actions(transition, s)
+    return list(transition[s].keys())
+
+def valueIteration( transition, reward, gamma= 0.99, epsilon= 0.01):
+    pi= { s: actions(transition, s)[0] for s in transition }
+    values= { s: 0.0 for s in transition }
+    maxDiffValue= epsilon + 1
+    while maxDiffValue > epsilon :
+        # for each state
+        maxDiffValue= 0.0
+        values= { s: 0.0 for s in transition }
+        for s in transition :
+            bestValue= BelmanValueOf(transition, reward, s, pi[s], values, gamma)
+            # search the best couple action / value
+            for a in transition[s] :
+                value= BelmanValueOf(transition, reward, s, a, values)
+                if value > bestValue :
+                    bestValue= value
+                    pi[s]= a
+            if abs( bestValue - values[s]  ) > maxDiffValue :
+                maxDiffValue= abs( bestValue - values[s]  )
+            values[s]= bestValue
+        values= values
+    return pi. values
+```
+
 Notez que vous pouvez stocker dans une fichier lisible votre politique implémenté comme un dictionnaire avec la librairie python 'json' :
 
 ```python
@@ -44,11 +90,3 @@ f = open("policy.json", "r")
 policy= json.loads( f.read() )
 f.close()
 ```
-
-<!--
-## Retour sur l'apprentissage au 421
-
-Analyse du Q-Learning sur cet exemple et présentation de l'apprentissage basé modèle.
-
-* [Model Based Learning](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/model-based-learning.pdf)
--->
