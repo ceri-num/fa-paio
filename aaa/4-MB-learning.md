@@ -59,19 +59,19 @@ def valueIteration( transition, reward, gamma= 0.99, epsilon= 0.01):
     while maxDiffValue > epsilon :
         # for each state
         maxDiffValue= 0.0
-        values= { s: 0.0 for s in transition }
         for s in transition :
             bestValue= BelmanValueOf(transition, reward, s, pi[s], values, gamma)
+            newValues= { s: 0.0 for s in transition }
             # search the best couple action / value
             for a in transition[s] :
-                value= BelmanValueOf(transition, reward, s, a, values)
-                if value > bestValue :
-                    bestValue= value
+                aValue= BelmanValueOf(transition, reward, s, a, values)
+                if aValue > bestValue :
+                    bestValue= aValuee
                     pi[s]= a
             if abs( bestValue - values[s]  ) > maxDiffValue :
                 maxDiffValue= abs( bestValue - values[s]  )
-            values[s]= bestValue
-        values= values
+            newValues[s]= bestValue
+        values= newValues
     return pi, values
 ```
 
@@ -90,3 +90,9 @@ f = open("policy.json", "r")
 policy= json.loads( f.read() )
 f.close()
 ```
+
+## Correction :
+
+Un agent *model-learner*: [https://raw.githubusercontent.com/ceri-num/module-DUU/master/codes/playerMDP.py](playerMDP.py).
+
+Attention cependant, pour gagner du temps dans le main, il n'apprend pas en jouant, mais en interrogeant le moteur du jeu.
