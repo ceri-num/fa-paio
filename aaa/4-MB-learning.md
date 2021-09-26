@@ -59,9 +59,9 @@ def valueIteration( transition, reward, gamma= 0.99, epsilon= 0.01):
     while maxDiffValue > epsilon :
         # for each state
         maxDiffValue= 0.0
+        newValues= { s: 0.0 for s in transition }
         for s in transition :
             bestValue= BelmanValueOf(transition, reward, s, pi[s], values, gamma)
-            newValues= { s: 0.0 for s in transition }
             # search the best couple action / value
             for a in transition[s] :
                 aValue= BelmanValueOf(transition, reward, s, a, values)
