@@ -57,21 +57,24 @@ def valueIteration( transition, reward, gamma= 0.99, epsilon= 0.01):
     values= { s: 0.0 for s in transition }
     maxDiffValue= epsilon + 1
     while maxDiffValue > epsilon :
-        # for each state
+        # initialize iteration values
         maxDiffValue= 0.0
         newValues= { s: 0.0 for s in transition }
+        # for each state
         for s in transition :
-            bestValue= BelmanValueOf(transition, reward, s, pi[s], values, gamma)
-            # search the best couple action / value
+            newValues[s]= BelmanValueOf(transition, reward, s, pi[s], values, gamma)
+            # search the best couple action/value
             for a in transition[s] :
                 aValue= BelmanValueOf(transition, reward, s, a, values)
-                if aValue > bestValue :
-                    bestValue= aValuee
+                if aValue > newValues[s] :
+                    newValues[s]= aValuee
                     pi[s]= a
+            # keep the maximal gain
             if abs( bestValue - values[s]  ) > maxDiffValue :
                 maxDiffValue= abs( bestValue - values[s]  )
-            newValues[s]= bestValue
+        # end the iteration.
         values= newValues
+    # Return the tuple policy and its associated values.
     return pi, values
 ```
 
