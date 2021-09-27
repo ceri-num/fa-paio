@@ -13,7 +13,7 @@ Parmi ces stratégies non informés, on peut noter l'[exploration en largeur d'a
 
 ![Exemple d'un graphe d'états avec exploration DFS non informé](assets/graph_example.png)
 
-D'autres explorations, plus sophistiquées existent, et tentent de répondre à certains problèmes inhérents à ces approches (*e.g.* utiliser DFS dans le cadre d'une profondeur infini, oops). C'est par exemple le cas de *Deep Limited Search*, qui impose une borne maximale $$\alpha$$ sur la profondeur de l'arbre. Pour trouver $$\alpha$$, l'on a recourt à l'étude (souvent mathématique) du problème.
+D'autres explorations, plus sophistiquées, existent et tentent de répondre à certains problèmes inhérents à ces approches (*e.g.* utiliser DFS dans le cadre d'une profondeur infini, oops). C'est par exemple le cas de *Deep Limited Search*, qui impose une borne maximale $$\alpha$$ sur la profondeur de l'arbre. Pour trouver $$\alpha$$, l'on a recourt à l'étude (souvent mathématique) du problème.
 
 ## Stratégie informées
 Une stratégie informée utilise des connaissances supplémentaires à la définition du problème qui vont permettre d'étendre le modèle du domaine et favoriser sa résolution. Souvent, il s'agit de connaissances expertes supplémentaires non réifiés (ou non réifiables) à l'intérieur du modèle.
@@ -21,3 +21,7 @@ Une stratégie informée utilise des connaissances supplémentaires à la défin
 {% hint style="info" %}
 Par exemple, utiliser la distance d'oiseau entre deux villes pour avoir de l'information supplémentaire et savoir qu'elle ville est la plus proche de l'état actuel.
 {% endhint %}
+
+Si l'on prend le problème des 8-reines par exemple, sa modélisation n'exclue pas par défaut tous les états inconsistants lorsqu'une reine est posée -- logique puisqu'on ne sait pas où on va la mettre. De fait, toutes les combinaisons existent *a priori* dans l'espace d'états. C'est grâce à des heuristiques qu'on va réussir à le réduire intelligemment.
+
+![Dans le cas du problème des  8-reines, on a la connaissance experte qu'il est inutile de considérer les états où des reines se trouvent sur les mêmes lignes ou diagonales ; ou qu'il vaut mieux favoriser certaines zones du plateau.](assets/queen.png)
