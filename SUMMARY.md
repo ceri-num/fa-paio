@@ -10,6 +10,7 @@
 * [(Q-learning en Python)](aaa/q-learning.md)
 * [Convergeance au 421](aaa/3-convergeance.md)
 * [Model-Based Learning](aaa/4-MB-learning.md)
+* [Passer à l'échelle](aaa/6-scaling.md)
 
 ## Théorie des jeux
 
@@ -19,5 +20,12 @@
 
 * [Introduction](opti/1-intro.md)
 
-## Conduite de projet IA.
+## Jeux.
+
+* [421](games/421.md)
+* [Zimbue Dice](games/zombie.md)
+
+## Projet IA et Opti.
+
+* [Introduction](opti/1-intro.md)
 

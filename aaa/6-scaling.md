@@ -1,10 +1,17 @@
 # Passer à l'échelle
 
-Tenter d'appliquer QLearning sur le jeu [ZombieDice](../gameZombies/intro.md).
+Passer à l'échelle qui sous-tend l'application d'une approche dans un cadre concret est le nerf de la guerre.
+Il passe nécessairement par la factorisation de modèle notamment dans le cadre du Q-Learning.
 
-* sur [replit.com](https://replit.com/repls/@ChefProjetIA21/jeu-ZombieDice)
+* [Le fléau de la dimension](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/the-curse.pdf)
 
-- 1 Accélérer l'apprentissage en réduisant l'espace d'état dans `qvalues`
+# Passer à l'échelle
+
+Tenter d'appliquer QLearning sur le jeu [ZombieDice](../games/zombie.md).
+
+- **1** - accélérer l'apprentissage en réduisant fortement l'espace d'état dans `qvalues`, sur la base de l'implémentation d'un arbre de décision.
+
+[gameZombie.py (1 players)](https://raw.githubusercontent.com/ceri-num/module-DUU/master/codes/gameZombies.py)
 
 *Astuce :* décomposer l'état:
 
@@ -30,7 +37,9 @@ def stateDico( self, state ):
     key= str(stDico["Brain"]) + "-" + str(stDico["Brain"])
 ```
 
-- 2 - passer sur la version 2 joueurs
+- **2** - opérer un transfert de connaissance en complexifiant l'arbre d'une itération à l'autre.
+
+- **3** - aller plus loin en passant sur la version 2 joueurs
 
 Deux joueurs s'affrontent:
 
@@ -42,14 +51,10 @@ gameEngine.run(player)
 
 Attention, l'état est complété avec les scores des deux joueurs, et la fonction de récompense ne communique une valeur qu'en fin de partie.
 
-## Support PDF
+[gameZombie2.py (2 players)](https://raw.githubusercontent.com/ceri-num/module-DUU/master/codes/gameZombies2.py)
 
-* [Scaling](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/scaling.pdf)
+## Modélisation factorisé
 
+Et maintenant passons à l'échelle dans un cadre `Model-Based`.
 
-## Mettre en pratique :
-
-- Réduire artificiellement l'espace d'état (ne conserver que les variables qui vous semblent pertinentes).
-- Opérer un transfert de connaissance: passer de la version 1-joueur à la version 2-joueurs
-- Apprendre de façons incrémentales, augmenter progressivement les variables observées.
-- ...
+* [Passer à l'échelle](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/scaling.pdf)
