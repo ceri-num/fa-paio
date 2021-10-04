@@ -31,7 +31,7 @@
 ## Jeux.
 
 * [421](games/421.md)
-* [Zimbue Dice](games/zombie.md)
+* [Zombie Dice](games/zombie.md)
 
 ## Projet IA et Opti.
 
