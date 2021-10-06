@@ -8,7 +8,7 @@ L'intelligence artificielle cherche par des modèles et des algorithmes à repro
 Le champ de recherche en IA est extrêmement large (neuroscience, langage, sociologie, apprentissage, optimisation...), ici in s'intéresse à l'individu et aux processus rationnels lui permettant de prendre les bonnes décisions.
 
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/intro-paio.pdf)
-                 
+
 
 ### Mise en pratique:
 

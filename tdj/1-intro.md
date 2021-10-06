@@ -1,7 +1,7 @@
-# Algorithmie pour la théorie des jeux
+# Algorithme pour la théorie des jeux
 
-En Algorithmie pour la théorie des jeux, les jeux à deux joueurs à somme nulle représente le cadre applicatif classique.
-Dans se cadre on s'interresse à calculer la stratégie optimal pour un joueur, c'est à dire maximiser la valeur de la pire configuration atteignable.
+En théorie des jeux, les jeux à deux joueurs à somme nulle représentent le cadre applicatif classique.
+Dans ce cadre on s'intéresse à calculer la stratégie optimale pour un joueur, c'est-à-dire maximiser la valeur de la pire configuration atteignable (i.e. vraissemblablement celle visé par son adversaire).
 
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/fa-paio/master/support/Minmax-MCTS-AlphaZero.pdf)
 
