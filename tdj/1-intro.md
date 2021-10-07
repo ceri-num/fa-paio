@@ -1,7 +1,7 @@
 # Algorithme pour la théorie des jeux
 
 En théorie des jeux, les jeux à deux joueurs à somme nulle représentent le cadre applicatif classique.
-Dans ce cadre on s'intéresse à calculer la stratégie optimale pour un joueur, c'est-à-dire maximiser la valeur de la pire configuration atteignable (i.e. vraissemblablement celle visé par son adversaire).
+Dans ce cadre on s'intéresse à calculer la stratégie optimale pour un joueur, c'est-à-dire maximiser la valeur de la pire configuration atteignable (i.e. vraisemblablement celle visée par son adversaire).
 
 - [Support (PDF)](https://raw.githubusercontent.com/ceri-num/fa-paio/master/support/Minmax-MCTS-AlphaZero.pdf)
 

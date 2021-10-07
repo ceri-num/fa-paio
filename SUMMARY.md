@@ -36,4 +36,9 @@
 ## Projet IA et Opti.
 
 * [Introduction](opti/1-intro.md)
-
+* [groupe rouge](opti/grp-rouge.md)
+* [groupe mauve](opti/grp-mauve.md)
+* [groupe bleu](opti/grp-bleu.md)
+* [groupe vert](opti/grp-vert.md)
+* [groupe orange](opti/grp-orange.md)
+* [groupe cyan](opti/grp-cyan.md)
