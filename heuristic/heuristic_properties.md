@@ -18,22 +18,22 @@ Dans certains problèmes d'optimisations, cela peut s'avérer problématique.
 {% endhint %}
 
 ## Admissibilité
-Si $\forall n, h(n)$ ne surestime jamais le coût, alors $h$ est une heuristique admissible. Par définition, une heuristique admissible est également optimiste.
+Si $$\forall n, h(n)$$ ne surestime jamais le coût, alors $$h$$ est une heuristique admissible. Par définition, une heuristique admissible est également optimiste.
 
 Un exemple évident d'une heuristique adimissible est celle de distance en vol d'oiseaux (ligne droite) entre deux points. On sait que c'est la distance la plus petite qui existe dans un plan en 2D, et qu'elle ne peut jamais occasionner une **surestimation** du coût.
 
-En reprenant **A*** (cf. [Études des heuristiques](heuristic_def_4.md)), puisque $g(n)$ est le coût actuel pour avoir atteint le noeud $n$, et que $f(n) = g(n) + h(n)$, la conséquence directe est que $f(n)$ ne surestime jamais le coût réel de la solution en suivant un chemin passant par $n$.
+En reprenant **A*** (cf. [Études des heuristiques](heuristic_def_4.md)), puisque $$g(n)$$ est le coût actuel pour avoir atteint le noeud $$n$$, et que $$f(n) = g(n) + h(n)$$, la conséquence directe est que $$f(n)$$ ne surestime jamais le coût réel de la solution en suivant un chemin passant par $$n$$.
 
 ## Consistence
 La consistence, appelée aussi **monocité**, est une propriété des heuristiques qui consiste à conserver une certaine cohérence *vis-a-vis* du problème lors de la recherche d'une solution raisonnable. Cette propriété s'applique particulièrement à certains types de problèmes, comme **A***.
 
-Par exemple, pour **A***, l'idée est que, quelque soit $n$ et son successeur $n'$ obtenu par une action $a$, le coût estimé pour attendre l'objectif ne peut pas être plus élevé pour $n$ que pour $n'$ plus le coût pour aller de $n$ à $n'. Formellement, on a une inégalité triangulaire, tel que :
+Par exemple, pour **A***, l'idée est que, quelque soit $n$ et son successeur $$n'$$ obtenu par une action $$a$$, le coût estimé pour attendre l'objectif ne peut pas être plus élevé pour $$n$$ que pour $n'$ plus le coût pour aller de $$n$$ à $$n'$$. Formellement, on a une inégalité triangulaire, tel que :
 
 $$
 h(n) \leq c(n,a,n') + h(n')
 $$
 
-Cela paraît naturel et évident, car, s'il existait un chemin passant par $n'$ plus efficace pour aller vers l'objectif, cela violerait le principe que $h(n)$ est la plus petite valeur pour atteindre l'objectif. Dit autrement, on aurait pris $n'$ plutôt que $n$.
+Cela paraît naturel et évident, car, s'il existait un chemin passant par $$n'$$ plus efficace pour aller vers l'objectif, cela violerait le principe que $$h(n)$$ est la plus petite valeur pour atteindre l'objectif. Dit autrement, on aurait pris $$n'$$ plutôt que $$n$$.
 
 {% hint style="info" %}
 Un constat également : une heuristique consistence est aussi admissible.
@@ -45,13 +45,13 @@ L'optimalité consiste à montrer qu'une heuristique permet de guider la résolu
 C'est une propriété complexe à observer et à étudier, en cela qu'elle est intrinsèquement liée au problème.
 
 {% hint style="info" %}
-Bien souvent, définir $h(n)$ de telle sorte qu'elle soit optimale requiert d'étudier le problème directement.
+Bien souvent, définir $$h(n)$$ de telle sorte qu'elle soit optimale requiert d'étudier le problème directement.
 {% endhint %}
 
 Dans le cas d'une exploration dans un graphe, une définition de l'optimalité peut s'exprimer comme : une heuristique admissible (ou *a fortiori* consistente), à chaque itération, sélectionne, parmi plusieurs candidats, le chemin avec le plus petit coût à chaque fois, atteint son objectif et surtout n'élague jamais les chemins optimaux (ceux qui mènent aux résultats optimaux), alors l'algorithme ne peut que finir dans un état golbalement optimal. 
 
 {% hint style="valid" %}
-Il s'agit là d'une preuve de la complexité, que l'on peut facilement construire par contradiction. L'intuition d'une telle preuve est de se dire que l'on termine l'algorithme avec un vrai coût $T$ supérieur à l'optimal $S$, et de regarder les évaluations de ces états juste avec la terminaison.
+Il s'agit là d'une preuve de la complexité, que l'on peut facilement construire par contradiction. L'intuition d'une telle preuve est de se dire que l'on termine l'algorithme avec un vrai coût $$T$$ supérieur à l'optimal $$S$$, et de regarder les évaluations de ces états juste avec la terminaison.
 {% endhint %}
 
 <!-- ## Exemple d'optimalité pour A*
