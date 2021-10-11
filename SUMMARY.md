@@ -25,7 +25,7 @@
 * [Propriétés des heuristiques](heuristic/heuristic_properties.md)
 * [Qualité des heuristiques (1/2)](heuristic/heuristic_quality.md)
 * [Qualité des heuristiques (2/2)](heuristic/heuristic_quality_2.md)
-* SOON™
+* [Production d'heuristiques](heuristic/production_heuristic.md)
 
 ## Théorie des jeux
 

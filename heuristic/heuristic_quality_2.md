@@ -38,15 +38,18 @@ Une bonne heuristique possède un **EBF proche de 1**.
 
 ## La Domination (en tout bien, tout honneur)
 
-Si une heuristique $$h_x$$ est, pour $$n$$, toujours meilleur qu'une autre heuristique $$h_y$$, alors on dit que $$h_x$$ domine $$h_y$$.
+Si une heuristique $$h_x$$ est, pour $$n \in N$$, toujours meilleur qu'une autre heuristique $$h_y$$, alors on dit que $$h_x$$ domine $$h_y$$.
 
 Le principe de domination est étroitement lié à la notion d'efficacité d'une heuristique. En sélectionnant toujours les heuristiques les plus dominantes, on obtient ainsi la ou les meilleurs heuristiques pour résoudre le problème.
 
-Pour définir la domination de $$h_x$$ sur $$h_y$$, il faut soit étudier mathématiquement le problème, soit empiriquement. Dans le dernier cas, il ne s'agit qu'une domination partielle effectuée sur le domaine de valeur testé.
+Pour définir la domination de $$h_x$$ sur $$h_y$$, il faut soit étudier mathématiquement le problème, soit empiriquement. Dans le dernier cas, il ne s'agit qu'une domination partielle effectuée sur le domaine de valeur testé. Il convient de s'assurer que le sous-échantillonnage utilisé soit représentatif des cas que l'on veut tester.
 
 {% hint style="info" %}
 Il est possible de créer des scripts automatiques qui lancent vos algorithmes et classent automatiquement les heuristiques, puis définis quelles heuristiques utilisés en fonction de la difficulté de votre problème.
 {% endhint %}
 
+Dans des problèmes très difficiles, trouver des heuristiques dominantes peut faire la différence.
+
+Par exemple, dans le tableau ci-dessus, suite aux tests effectués, on peut dire que $$h2$$ domine $$h1$$ : il est donc plus intéressant d'implémenter une fonction de distance de pièces mal placées pour le taquin que le nombre de tuiles mal placées.
 
 <!-- une manière "objective"  p.110 -->
