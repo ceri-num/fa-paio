@@ -1,4 +1,3 @@
-Évaluer la qualité d'une heuristique sur la performance de la stratégie
+# Heuristique et qualité
 
-erreur absolue ? p104
-une manière "objective"  p.110
+Comment évalueriez vous la qualité d'une heuristique ? **Wooclap time! (q9)**
