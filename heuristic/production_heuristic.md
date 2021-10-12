@@ -8,7 +8,7 @@ Bien souvent lorsque l'on produit des heuristiques, il est rare qu'une soit déf
 L'avantage avec la nature des heuristiques est qu'il n'est pas besoin d'en choisir qu'une. Il est tout à fait possible de définir une fonction $$h_{max}(n)$$ qui choisit l'heuristique la plus précise pour le noeud $$n$$, tel que 
 
 $$
-h_{max}(n) = max{\h_1(n),\dots,h_m(n)\}
+h_{max}(n) = max\{h_1(n),\dots,h_m(n)\}
 $$
 
 Si les heuristiques de l'ensemble sont admissibles, alors $$h_max$$ l'est aussi. De plus, elle est aussi dominante de toutes les heuristiques qui la compose.
