@@ -13,4 +13,14 @@ tache:
 2. Premiére heuristique de jeux (Léo, Kevin et Valentin)
 
 
+## Semaine X
 
+Implémentation d'un simulateurs mais reste des bugs à lever.
+
+Le simulateur est imbriqué avec Alpha-Beta.
+
+Tache: 
+
+- Debug Simulateur
+- Fusionner les deux MinMax
+- Fonction évaluation.

@@ -1,5 +1,7 @@
 # Groupe Vert
 
+- membres: Amadou, Julien M. Nathan P. Samuel O. Thomas V.
+- git: https://github.com/Ykurfeza/RiskyGameClient
 
 ## Kick-off
 

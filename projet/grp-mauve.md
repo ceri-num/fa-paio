@@ -1,5 +1,7 @@
 # Groupe Mauve
 
+- membres (4): Pierre-Antoine P. Quentin B. Valentin Pi.
+- git: https://github.com/LordAzyks/paio-risk-mauve
 
 ## Kick-off
 
@@ -17,3 +19,7 @@ tache:
 2. teste une strat heuristique. (quentin et pierre)
 
 Abs: 
+
+## semaine X
+
+Ok.
