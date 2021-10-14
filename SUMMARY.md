@@ -22,7 +22,10 @@
 * [Étude des heuristiques (2/4)](heuristic/heuristic_def_2.md)
 * [Étude des heuristiques (3/4)](heuristic/heuristic_def_3.md)
 * [Étude des heuristiques (4/4)](heuristic/heuristic_def_4.md)
-* SOON™
+* [Propriétés des heuristiques](heuristic/heuristic_properties.md)
+* [Qualité des heuristiques (1/2)](heuristic/heuristic_quality.md)
+* [Qualité des heuristiques (2/2)](heuristic/heuristic_quality_2.md)
+* [Production d'heuristiques](heuristic/production_heuristic.md)
 
 ## Théorie des jeux
 
