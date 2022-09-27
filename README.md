@@ -23,14 +23,14 @@ Support publié sur gitbook via github.
 
 **Communication**
 
-- Amphi virtuel via BigBlueButton (un navigateur type firefox suffi): <br /> [serveur BigBlue](https://bbb2.imt-nord-europe.fr/b/gui-fnl-wd7-il7)
+- Amphi virtuel via BigBlueButton (un navigateur type firefox suffi): <br /> [serveur BigBlue](https://bbb2.imt-nord-europe.fr/b/ale-xik-dgs-yk7)
 - Serveur d'échange perein (idéalement vous utilisez le client lourd Discord): <br />https://discord.gg/CNZh6T62e8
 - Présentiel (site de Villeneuve d'Ask)
 
 **Environnement de développement**
 
 - Un éditeur multi-language - VisualStudioCode (version [microsft](https://code.visualstudio.com/) ou [ouvert](https://vscodium.com/)), Atom ...
-- Un environnement virtualisé [replit.com](https://replit.com) par exemple.
+- Un environnement virtualisé - plug-in adéquat dans VSCode ou [replit.com](https://replit.com) par exemple.
 
 ---
 
