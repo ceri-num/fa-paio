@@ -65,9 +65,9 @@ self.qvalues["2-6-3-2"]["roll-roll-roll"]= ...
 To notice that in professional condition (if you target to become an engineer in Computing Science), you will rarely have a decomposition of the tasks to achieve.
 -->
 
-You ~~can~~ must test your code at each development step by executing the code for few games and validate that the output is as expected.
+You ~~can~~ must test your code at each development step by executing the code for few games and validate that the output is as expected (a good python tool to make test: `pytest`).
 
-1. You can now try to answer how many episodes are required to learn a good enough policy.
+1. You can now try to answer the question: how many episodes are required to learn a good enough policy.
 
 ## Going further:
 
