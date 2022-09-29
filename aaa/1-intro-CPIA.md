@@ -34,6 +34,6 @@ Pour appréhender un tel système, l'idée est d'étudier un jeu simple le 421 d
 Une version python du jeu est disponible via [HackaGames](https://bitbucket.org/imt-mobisyst/hackagames).
 Un [tuto](https://bitbucket.org/imt-mobisyst/hackagames/src/master/doc/tuto-replit.md) vous aide a initialiser votre environnement sous _repl.it_.
 
-Le fichier [README]() du jeu `421` vous guide ensuite pour prendre la main, apprendre à jouer et développer votre propre IA.
+Le fichier [README](https://bitbucket.org/imt-mobisyst/hackagames/src/master/game-421/) du jeu `421` vous guide ensuite pour prendre la main, apprendre à jouer et développer votre propre IA.
 
 L'objectif ici est de générer une IA heuristique qui gagne la première IA (`firstIA.py`), avec un résultat moyen plus fort sur 1000 parties.
