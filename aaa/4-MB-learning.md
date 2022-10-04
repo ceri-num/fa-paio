@@ -2,7 +2,7 @@
 
 On souhaite maintenant apprendre un modèle de l'évolution de notre système, de façon à pouvoir résonner dessus et planifier les actions à réaliser.
 
-* [Model-Based-Learning](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/mb-learning.pdf)
+- Model-Based-Learning - [Support (PDF)](https://bitbucket.org/imt-mobisyst/lecture-d2u/raw/master/20-reinforcement/rl-on-421.pdf)
 
 
 ## Apprendre le Modèle :
@@ -11,14 +11,20 @@ On va chercher à apprendre l'évolution au 421:
 
 Il faut dans un premier explorer l'environnement, ie tester toutes les actions suffisamment de foi pour générer une connaissance statistique de l'évolution du système et ceux depuis chaque état atteignable.
 
-Bref c'est laborieux, ici vous pouvez utiliser la trace suivante: [log de 1000 transitions par couple états-actions au 421](https://raw.githubusercontent.com/ceri-num/module-DUU/master/codes/transition-log.txt) (attention fichier de 45 Mega).
+Bref c'est laborieux, ici vous pouvez utiliser la trace suivante: [log de 1000 transitions par couple états-actions au 421](https://bitbucket.org/imt-mobisyst/lecture-d2u/raw/master/ressources/log1000-421.txt) (attention fichier de 45 Mega).
+
+pour le copier localement: 
+
+```sh
+curl https://bitbucket.org/imt-mobisyst/lecture-d2u/raw/master/ressources/log1000-421.txt > log1000-421.txt
+```
 
 Le fichier est structuré par ligne : "état-de-départ action état-atteint récompense" séparé donc par des espaces.
 
-Sur la base de ce fichier:
+Sur la base de ce fichier (et en utilisant les dictionnaires python):
 
 - Générer la fonction de récompense - une structure qui stocke la valeur moyenne d'exécuter une action depuis un état donné.
-- Générer la fonction de transition - une structure qui stocke une structure avec la liste des états atteignables couplée à la probabilité de les atteindre (dictionnaire de dictionnaires de dictionnaires par exemple).
+- Générer la fonction de transition - une structure qui stocke une structure avec la liste des états atteignables couplée à la probabilité de les atteindre (typiquement un dictionnaire de dictionnaires de dictionnaires).
 
 *Notez qu'il s'agit ici d'expérimenter, et non pas de réfléchir un code efficace.*
 
@@ -94,8 +100,10 @@ policy= json.loads( f.read() )
 f.close()
 ```
 
+<!--
 ## Correction :
 
 Un agent *model-learner*: [https://raw.githubusercontent.com/ceri-num/module-DUU/master/codes/playerMDP.py](playerMDP.py).
 
 Attention cependant, pour gagner du temps dans le main, il n'apprend pas en jouant, mais en interrogeant le moteur du jeu.
+-->
