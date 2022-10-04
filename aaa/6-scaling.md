@@ -5,6 +5,7 @@ Il passe nécessairement par la factorisation de modèle notamment dans le cadre
 
 * [Le fléau de la dimension](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/the-curse.pdf)
 
+<!--
 # Passer à l'échelle
 
 Tenter d'appliquer QLearning sur le jeu [ZombieDice](../games/zombie.md).
@@ -58,3 +59,5 @@ Attention, l'état est complété avec les scores des deux joueurs, et la foncti
 Et maintenant passons à l'échelle dans un cadre `Model-Based`.
 
 * [Passer à l'échelle](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/scaling.pdf)
+
+-->

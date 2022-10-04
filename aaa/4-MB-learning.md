@@ -16,7 +16,8 @@ Bref c'est laborieux, ici vous pouvez utiliser la trace suivante: [log de 1000 t
 pour le copier localement: 
 
 ```sh
-curl https://bitbucket.org/imt-mobisyst/lecture-d2u/raw/master/ressources/log1000-421.txt > log1000-421.txt
+curl https://bitbucket.org/imt-mobisyst/lecture-d2u/raw/master/ressources/log1000-421.txt \
+ > log1000-421.txt
 ```
 
 Le fichier est structuré par ligne : "état-de-départ action état-atteint récompense" séparé donc par des espaces.
@@ -54,7 +55,7 @@ In this implementation:
 
 Second: Value Iteration:
 
-```Python
+```python
 def actions(transition, s)
     return list(transition[s].keys())
 
