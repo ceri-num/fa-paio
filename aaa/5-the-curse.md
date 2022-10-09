@@ -1,7 +1,26 @@
 # The Curse of Dimensionality
 
-Tenter d'appliquer QLearning sur le jeu [ZombieDice](../gameZombies/intro.md).
+## Support PDF
 
+* [Le fléau de la dimension](https://bitbucket.org/imt-mobisyst/lecture-d2u/raw/master/30-the-curse/fa32-factorized-model.pdf)
+
+## To-Do
+
+Tenter d'appliquer QLearning sur le jeu **Risky**.
+
+### Version 'board-4'
+
+- Comprendre le jeu (ie. jouer).
+- Réfléchir (sur papier) à une premiére réduction du nombre d'action (les moves)
+- Implémenter le Q-Learning
+
+### Version 'board-4'
+
+- Tester le jeu (ie. jouer).
+- Réfléchir (sur papier) à un premier arbre de décision
+- Implémenter une permiére version de Q-Learning factoriser
+
+<!--
 * sur [replit.com](https://replit.com/repls/@ChefProjetIA21/jeu-ZombieDice)
 
 1. Appréhender le jeu en jouant.
@@ -20,8 +39,5 @@ f = open("qvalues.json", "r")
 qvalues= AgentPi( json.loads( f.read() ) )
 f.close()
 ```
+-->
 
-
-## Support PDF
-
-* [Le fléau de la dimension](https://raw.githubusercontent.com/ceri-num/module-DUU/master/notions/the-curse.pdf)
