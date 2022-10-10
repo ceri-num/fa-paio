@@ -14,7 +14,7 @@ Tenter d'appliquer QLearning sur le jeu **Risky**.
 - Réfléchir (sur papier) à une première réduction du nombre d'actions (les moves)
 - Implémenter le Q-Learning
 
-### Version 'board-4'
+### Version 'board-6' - 'board-10'
 
 - Tester le jeu (ie. jouer).
 - Réfléchir (sur papier) à un premier arbre de décision
