@@ -11,14 +11,14 @@ Tenter d'appliquer QLearning sur le jeu **Risky**.
 ### Version 'board-4'
 
 - Comprendre le jeu (ie. jouer).
-- Réfléchir (sur papier) à une premiére réduction du nombre d'action (les moves)
+- Réfléchir (sur papier) à une première réduction du nombre d'actions (les moves)
 - Implémenter le Q-Learning
 
 ### Version 'board-4'
 
 - Tester le jeu (ie. jouer).
 - Réfléchir (sur papier) à un premier arbre de décision
-- Implémenter une permiére version de Q-Learning factoriser
+- Implémenter une première version de Q-Learning factoriser
 
 <!--
 * sur [replit.com](https://replit.com/repls/@ChefProjetIA21/jeu-ZombieDice)

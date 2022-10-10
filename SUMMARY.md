@@ -10,7 +10,7 @@
 * [(Q-learning en Python)](aaa/q-learning.md)
 * [Convergeance au 421](aaa/3-convergeance.md)
 * [Model-Based Learning](aaa/4-MB-learning.md)
-* [Passer à l'échelle](aaa/6-scaling.md)
+* [Passer à l'échelle](aaa/5-the-curse.md)
 
 ## Heuristiques
 
