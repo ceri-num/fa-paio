@@ -3,6 +3,10 @@
 * [Project on AI & Opti.](README.md)                             <!--Guillaume-->
 * [Plan du module](outline.md)
 
+## HackaGames
+
+* [Risky Game](games/risky.md)
+
 ## Agir et apprendre à agir                             <!--Guillaume-->
 
 * [Introduction](aaa/1-intro-CPIA.md)
@@ -31,10 +35,6 @@
 
 * [Introduction](tdj/1-intro.md)
 
-## Jeux.
-
-* [421](games/421.md)
-* [Zombie Dice](games/zombie.md)
 
 ## Projet IA et Opti.
 
