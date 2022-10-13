@@ -6,13 +6,16 @@ Let’s talk about this module.
 
 Appréhender un système complexe et modéliser l'action. Mettre en pratique dans un cadre simple avec des algorithmes d'apprentissage par renforcement.
 
+
 ## Théorie des jeux
 
-Choisir ses actions dans un cadre défini et concurrentiel (jeux à *N* joueurs). étude  de l'algorithme de Monte-Carlo
+Choisir ses actions dans un cadre défini et concurrentiel (jeux à *N* joueurs). Étude de l'algorithme de Monte-Carlo.
+
 
 ## Optimisation combinatoire
 
 Et oui, l'optimalité n'est que rarement atteignable.
+
 
 ## Conduite de projet IA.
 

@@ -1,8 +1,9 @@
-# PAIO - Project on Artificial Intelligence and Optimization
+# PAIO - Projet Artificial Intelligence et Optimisation
 
-Module de Projet informatique autour de l'intelligence artificielle et de l'optimisation.
 
-**Publique**: Informaticien en formation par apprentissage, dans l'optique de compléter leur formation de notions en IA et Optimisation.
+Module de Projet Informatique autour de l'intelligence artificielle et de l'optimisation.
+
+**Publique**: Informaticien en formation par apprentissage, dans l'optique de compléter leur formation de notions en IAs et Optimisation.
 
 <!-- **Volume horaire**: *12* &times; *1h30* soit *18h* - octobre/novembre. -->
 
@@ -12,10 +13,14 @@ Module de Projet informatique autour de l'intelligence artificielle et de l'opti
 
 ## Ce support
 
-Support publié sur gitbook via github.
+Support publié sur gitbook via github:
 
-- On gitbook: https://ceri-num.gitbook.io/fa-paio
-- On GitHub: https://github.com/ceri-num/fa-paio
+- On gitbook: [https://ceri-num.gitbook.io/fa-paio](https://ceri-num.gitbook.io/fa-paio)
+- On GitHub: [https://github.com/ceri-num/fa-paio](https://github.com/ceri-num/fa-paio)
+
+Travaux pratiques basés sur _HackaGames_:
+
+- Repo du projet: [https://bitbucket.org/imt-mobisyst/hackagames](https://bitbucket.org/imt-mobisyst/hackagames)
 
 ---
 
